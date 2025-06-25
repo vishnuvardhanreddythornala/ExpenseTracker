@@ -27,7 +27,7 @@ This is a full-stack expense tracking web application built as part of an assign
 ---
 
 ## 🗂️ Folder Structure
-
+```
 ExpenseTracker/
 │
 ├── backend/ # Express API (Node.js)
@@ -46,6 +46,7 @@ ExpenseTracker/
 │ ├── .env # API base URL
 │ └── tailwind.config.js # Tailwind CSS config
 
+```
 # Project instructions
 
 
@@ -67,45 +68,36 @@ ExpenseTracker/
 git clone https://github.com/vishnuvardhanreddythornala/ExpenseTracker.git
 cd ExpenseTracker
 
+```
 ### 2. Setup Backend
-bash
-Copy
-Edit
+
+```bash
 cd backend
 npm install
 👉 Create .env file
-ini
-Copy
-Edit
 PORT=5000
 MONGO_URI=<your-mongodb-connection-string>
-Then run the server:
 
-bash
-Copy
-Edit
+Then run the server:
 npm start
 The backend will run on: http://localhost:5000
 
-3. Setup Frontend
-bash
-Copy
-Edit
+```
+### 3. Setup Frontend
+
+```bash
 cd ../frontend
 npm install
+
 👉 Create .env file
-ini
-Copy
-Edit
+
 REACT_APP_API_BASE_URL=http://localhost:5000
 Then start the React app:
 
-bash
-Copy
-Edit
 npm start
 The frontend will run on: http://localhost:3000
 
+```
 📊 Data Visualizations
 Dashboard:
 
@@ -135,7 +127,13 @@ Charts update dynamically based on the latest income/expense data.
 Responsive and reusable components are used across the app.
 
 
+## 📜 License
+This project is licensed under the **MIT License**.
 
+## 📞 Contact
+- **Name**: Thornala Vishnu Vardhan Reddy
+- **GitHub**: [@vishnuvardhanreddythornala](https://github.com/vishnuvardhanreddythornala)
+- **Email**: [vishnuvardhanreddythornala@gmail.com]
 
 
 
